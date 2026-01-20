@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Deletion - Volosist.com</title>
+<style>
+  body { font-family: Arial; margin:0; padding:0; background:#f4f4f4; color:#333; }
+  header { background:#1e88e5; color:white; padding:20px; text-align:center; }
+  main { max-width:900px; margin:20px auto; padding:20px; background:white; border-radius:8px; }
+  h2 { color:#1e88e5; margin-top:20px; }
+  form input, form button {
+    width:100%; max-width:400px; padding:10px; margin:5px 0; border-radius:5px; border:1px solid #ccc;
+  }
+  form button {
+    background:#1e88e5; color:white; border:none; cursor:pointer;
+  }
+  form button:hover { background:#1565c0; }
+  footer { background:#ddd; text-align:center; padding:20px; margin-top:20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>User Data Deletion</h1>
+</header>
+
+<main>
+  <p>Fill out the form below to request deletion of your personal data. Requests are processed within 30 days.</p>
+
+  <form action="mailto:support@volosist.com" method="post" enctype="text/plain">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="reason">Reason for Deletion (optional):</label><br>
+    <input type="text" id="reason" name="reason"><br>
+
+    <button type="submit">Submit Request</button>
+  </form>
+</main>
+
+<footer>
+  &copy; 2026 Volosist.com
+</footer>
+
+</body>
+</html>
