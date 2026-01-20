@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volosist.com Policies</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+  }
+
+  header {
+    background: #1e88e5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+  }
+
+  h1, h2 {
+    color: #1e88e5;
+  }
+
+  h2 {
+    margin-top: 30px;
+  }
+
+  ul {
+    margin: 10px 0 20px 20px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  .delete-form input, .delete-form button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .delete-form button {
+    background: #1e88e5;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .delete-form button:hover {
+    background: #1565c0;
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Volosist.com Policies</h1>
+</header>
+
+<main>
+
+  <!-- Privacy Policy -->
+  <section>
+    <h2>Privacy Policy</h2>
+    <p>Effective Date: January 20, 2026</p>
+    <p>At Volosist.com, we value your privacy. We collect information to provide and improve our services.</p>
+    <h3>Information We Collect</h3>
+    <ul>
+      <li>Personal info: name, email, phone</li>
+      <li>Non-personal info: IP, browser, usage data</li>
+      <li>Third-party info as applicable</li>
+    </ul>
+    <h3>How We Use It</h3>
+    <ul>
+      <li>Provide and enhance services</li>
+      <li>Communicate updates and offers</li>
+      <li>Ensure security and prevent fraud</li>
+    </ul>
+    <p>For questions, contact <a href="mailto:support@volosist.com">support@volosist.com</a>.</p>
+  </section>
+
+  <!-- Terms of Service -->
+  <section>
+    <h2>Terms of Service</h2>
+    <p>Effective Date: January 20, 2026</p>
+    <ul>
+      <li>By using our services, you agree to these terms.</li>
+      <li>Do not use our website for illegal activities.</li>
+      <li>All content is owned by Volosist.com or its licensors.</li>
+      <li>We are not liable for indirect or consequential damages.</li>
+      <li>Terms may be updated anytime; continued use means acceptance.</li>
+    </ul>
+  </section>
+
+  <!-- User Data Deletion -->
+  <section>
+    <h2>User Data Deletion Request</h2>
+    <p>If you want to delete your data, fill out the form below. We will process your request within 30 days.</p>
+    <form class="delete-form" action="mailto:support@volosist.com" method="post" enctype="text/plain">
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="reason">Reason for Deletion (optional):</label><br>
+      <input type="text" id="reason" name="reason"><br>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Volosist.com. All rights reserved.
+</footer>
+
+</body>
+</html>
