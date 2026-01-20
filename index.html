@@ -3,132 +3,82 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Volosist.com Policies</title>
+<title>Volosist.com</title>
 <style>
   body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
     background: #f4f4f4;
     color: #333;
+    text-align: center;
   }
 
   header {
     background: #1e88e5;
     color: white;
-    padding: 20px;
-    text-align: center;
+    padding: 30px 0;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
   }
 
   main {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
+    padding: 40px 20px;
   }
 
-  h1, h2 {
-    color: #1e88e5;
+  .company-info {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
   }
 
-  h2 {
-    margin-top: 30px;
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
-  ul {
-    margin: 10px 0 20px 20px;
-  }
-
-  footer {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
-    margin-top: 20px;
-  }
-
-  .delete-form input, .delete-form button {
-    width: 100%;
-    max-width: 400px;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-
-  .delete-form button {
+  .btn-group a {
+    text-decoration: none;
+    padding: 15px;
     background: #1e88e5;
     color: white;
-    border: none;
-    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
   }
 
-  .delete-form button:hover {
+  .btn-group a:hover {
     background: #1565c0;
   }
 
+  footer {
+    background: #ddd;
+    padding: 20px;
+    margin-top: 40px;
+  }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>Volosist.com Policies</h1>
+  <h1>Volosist.com</h1>
 </header>
 
 <main>
+  <div class="company-info">
+    <p>Welcome to Volosist.com – Your trusted partner for innovative solutions and services to help your business grow. Explore our policies below to understand how we handle data and protect your privacy.</p>
+  </div>
 
-  <!-- Privacy Policy -->
-  <section>
-    <h2>Privacy Policy</h2>
-    <p>Effective Date: January 20, 2026</p>
-    <p>At Volosist.com, we value your privacy. We collect information to provide and improve our services.</p>
-    <h3>Information We Collect</h3>
-    <ul>
-      <li>Personal info: name, email, phone</li>
-      <li>Non-personal info: IP, browser, usage data</li>
-      <li>Third-party info as applicable</li>
-    </ul>
-    <h3>How We Use It</h3>
-    <ul>
-      <li>Provide and enhance services</li>
-      <li>Communicate updates and offers</li>
-      <li>Ensure security and prevent fraud</li>
-    </ul>
-    <p>For questions, contact <a href="mailto:support@volosist.com">support@volosist.com</a>.</p>
-  </section>
-
-  <!-- Terms of Service -->
-  <section>
-    <h2>Terms of Service</h2>
-    <p>Effective Date: January 20, 2026</p>
-    <ul>
-      <li>By using our services, you agree to these terms.</li>
-      <li>Do not use our website for illegal activities.</li>
-      <li>All content is owned by Volosist.com or its licensors.</li>
-      <li>We are not liable for indirect or consequential damages.</li>
-      <li>Terms may be updated anytime; continued use means acceptance.</li>
-    </ul>
-  </section>
-
-  <!-- User Data Deletion -->
-  <section>
-    <h2>User Data Deletion Request</h2>
-    <p>If you want to delete your data, fill out the form below. We will process your request within 30 days.</p>
-    <form class="delete-form" action="mailto:support@volosist.com" method="post" enctype="text/plain">
-      <label for="name">Full Name:</label><br>
-      <input type="text" id="name" name="name" required><br>
-
-      <label for="email">Email Address:</label><br>
-      <input type="email" id="email" name="email" required><br>
-
-      <label for="reason">Reason for Deletion (optional):</label><br>
-      <input type="text" id="reason" name="reason"><br>
-
-      <button type="submit">Submit Request</button>
-    </form>
-  </section>
-
+  <div class="btn-group">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms & Conditions</a>
+    <a href="data-deletion.html">User Data Deletion</a>
+  </div>
 </main>
 
 <footer>
